@@ -1,0 +1,7 @@
+package com.mvc.member.dao;
+
+public class MemberMapperImpl implements MemberMapper {
+
+
+
+}

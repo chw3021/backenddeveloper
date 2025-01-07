@@ -1,0 +1,23 @@
+@charset "UTF-8";
+
+body{
+	overflow-y: scroll;
+}
+textarea{
+	resize:none;
+}
+
+#boardList a {
+	text-decoration: none;
+	color: #000000;
+}
+#boardList span:hover{
+	color: #FFD700;
+}
+
+#pwdChk{
+	visibility:hidden;
+}
+.table-height{
+	height: 200px;
+}

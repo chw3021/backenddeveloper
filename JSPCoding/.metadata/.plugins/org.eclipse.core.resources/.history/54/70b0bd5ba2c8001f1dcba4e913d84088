@@ -1,0 +1,14 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<%@ include file="/WEB-INF/common/common.jsp" %>
+
+	<body>
+		<div class="container">
+			<div class="text-center"><h3>제목</h3></div>
+            
+
+		</div>
+		<script src="/include/js/js파일명.js"></script>
+
+	</body>
+</html>

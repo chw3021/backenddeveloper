@@ -1,0 +1,63 @@
+<!-- 
+	ajax(Asynchronous JavaScript and XML)란 비동기 Javascript와 xml을 말한다. 특정 언어나 플랫폼 혹은 
+    프레임워크나 라이브러리를 뜻하는 것이 아니라 javascript로 원격지로부터 데이터를 읽어오는데 
+    필요한 처리 기술들의 집합체라고 할 수 있다. 
+	XMLHttpRequest 객체는 서버측 javascript와 통신하기 위한 Ajax 핵심 기술이며, Ajax의 가장 강력한 특징인 
+	비동기성을 가능케 한다. 비동기 처리로 인해 페이지는 사용자 이벤트를 처리하면서 전체 페이지가 아닌 
+    일부분만을 업데이트 할 수 있게 된다.
+	- 페이지 일부분을 업데이트 하기 위한 정보를 서버에 요청할 수 있다.
+	- 서버로부터 받은 데이터로 작업을 한다.  
+	
+	XMLHttpRequest 객체를 사용하여 서버로부터 데이터를 가져오고, 그 내용을 페이지에 반영해 주기 위해 HTML 
+	태그 요소를 제어하는 DOM 객체에 대한 처리 및 CSS 처리의 병행을 보여준다. 
+    그래서 Ajax가 적용된 페이지는 전체 HTML 페이지가 아닌 XML이나 JSON 형식으로 구성된 새로운 내용만을  
+    XMLHttpRequest(서버와의 통신 담당) 객체를 통해 받아오기 때문에, 페이지 이동 없이 새로운 내용을 
+    사용자에게 제공할 수 있다. 직접 Ajax를 구현할 경우  XMLHttpRequest 내장 객체를 사용하게 된다. 
+	그러나 JQuery는 $.ajax()함수를 사용하여 구현할 수 있다.
+ -->
+<!DOCTYPE html>
+<html lang="ko">
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+		<title>text(1) - 01-text.html</title>
+		<link href="../image/icon.png" rel="icon" type="image/x-icon" />
+
+		<!-- 공통 css -->
+		<link rel="stylesheet" type="text/css" href="../css/reset.css"/>
+		<link rel="stylesheet" type="text/css" href="../css/common.css"/>
+
+		<!-- jQuery Framework 참조하기 -->
+		
+		<script src="../js/jquery-3.7.1.min.js"></script>
+
+		<script>
+			$(function() {
+				// 버튼의 클릭 이벤트
+				$("#mybtn").on("click", function() {
+					$.ajax({
+						url: '/firstExample/ajax/text/01.txt',
+						method: 'get',
+						dataType: 'text'
+					}).done(function (data) {
+						//통신이 성공했을 때 실행되는 함수. (서버의 응답 시 처리 과정)
+						// dataType값이 text일 경우에는 단순히 내용에 대한 문자열이므로, 
+                        // 직접 HTML요소에 출력할 수 있다.
+						$("#result").html(data);
+					}).fail(function(xhr, textStatus) {
+						 //통신이 실패했을 때 실행되는 함수.
+						$("#result").html(textStatus + " (HTTP-" + xhr.status + ")");
+					});
+				});
+			});
+		</script>
+	</head>
+	<body>
+		<h1 class="title">$.ajax() 함수를 사용한 텍스트 읽기</h1>
+		<div class="exec">
+			<input type="button" value="txt파일 가져오기" id="mybtn" />
+		</div>
+		<div class="console" id="result"></div>
+	</body>
+</html>

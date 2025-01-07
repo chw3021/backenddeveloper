@@ -1,0 +1,6 @@
+#Thu Jan 02 09:44:43 KST 2025
+__DEFAULT__=false
+expression=filename
+org.eclipse.help.ui.localSearch.master=true
+org.eclipse.sdk.Eclipse.master=true
+org.eclipse.sdk.Google.master=true

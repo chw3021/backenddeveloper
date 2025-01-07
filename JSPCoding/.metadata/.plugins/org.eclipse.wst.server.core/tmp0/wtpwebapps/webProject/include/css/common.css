@@ -1,0 +1,23 @@
+@charset "UTF-8";
+
+body{
+	overflow-y: scroll;
+}
+textarea{
+	resize:none;
+}
+
+#boardList span {
+   	transition: all 1s;
+}
+#boardList span:hover{
+	cursor: pointer;
+	color: #FFD700;
+}
+
+#pwdChk{
+	visibility:hidden;
+}
+.table-height{
+	height: 200px;
+}

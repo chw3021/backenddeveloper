@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;SpaceDefense-lwjgl3/assets/background.jpg&apos; to &apos;space_background.png&apos;" description="Rename resource &apos;background.jpg&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="assets/background.jpg" name="space_background.png" stamp="1734489168983" updateReferences="true"/>
+</session>

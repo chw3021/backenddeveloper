@@ -1,0 +1,11 @@
+package com.mvc.member.vo;
+
+public class MemberVO {
+
+	private int num;         // 글 번호
+	private	String id;   // 글 작성자
+	private	String pwd;    // 글제목
+	private	String name;  // 글내용
+	private	String address;     // 글 조회수
+	private	String regdate; // 글 작성일
+}

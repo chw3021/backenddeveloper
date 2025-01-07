@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="ko">
+	<head>
+    	<meta charset="UTF-8">
+    	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    	<title>getdata</title>
+    	<link href="../images/icon.png" rel="icon" type="image/x-icon">
+		<script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+		<script src="../js/getData.js"></script>
+
+	</head>
+	<body>
+		<form action="/servletExample/postData" method="post" id="inputForm">
+			<div>
+				<label for="user_name">이름: </label>
+				<input type="text" name="user_name" id="user_name" placeholder="이름 입력">
+			</div>
+			<div>
+				<label for="user_addr">주소: </label>
+				<input type="text" name="user_addr" id="user_addr" placeholder="주소 입력">
+			</div>
+	
+			<div>
+				<button type="submit">전송</button>
+				<button type="reset">취소</button>
+			</div>
+		</form>
+	</body>
+</html>

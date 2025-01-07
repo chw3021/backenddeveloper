@@ -1,0 +1,6 @@
+package com.mvc.member.dao;
+
+public interface MemberMapper {
+
+	public List<MemberVO> memberList(MemberVO vo);
+}

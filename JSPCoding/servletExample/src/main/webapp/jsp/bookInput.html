@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="ko">
+	<head>
+    	<meta charset="UTF-8">
+    	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    	<title>Book</title>
+    	<link href="../images/icon.png" rel="icon" type="image/x-icon">
+		<script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+		<script src="../js/bookInput.js"></script>
+	</head>
+	<body>
+		
+		<form action="/servletExample/bookInput" method="post" id="bookForm">
+			<div>
+				<label for="title">제목: </label>
+				<input type="text" name="title" id="title" placeholder="제목">
+			</div>
+			<div>
+				<label for="author">저자: </label>
+				<input type="text" name="author" id="author" placeholder="저자">
+			</div>
+			<div>
+				<label for="publisher">출판사: </label>
+				<input type="text" name="publisher" id="publisher" placeholder="출판사">
+			</div>
+	
+			<div>
+				<button type="submit">전송</button>
+				<button type="reset">취소</button>
+			</div>
+		</form>
+	</body>
+</html>

@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">	
+		<title>점수 입력 - score.html</title>
+		<link href="/servletExample/image/icon.png" rel="icon" type="image/x-icon" />		
+	</head>
+	<body>
+		<form id="scoreForm">
+			<label>점수 입력(0 ~ 100사이로 입력해 주세요)</label><br />
+			<label>점수: </label>
+			<input type="text" name="score" id="score" maxlength="3" />
+			<button type="button" id="sendBtn">학점 구하기</button><br />
+		</form>
+			
+		<script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+		<script src="/servletExample/js/score.js"></script>
+	</body>
+</html>

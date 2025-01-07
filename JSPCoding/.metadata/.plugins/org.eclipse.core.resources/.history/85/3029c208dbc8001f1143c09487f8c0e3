@@ -1,0 +1,5 @@
+package com.mvc.notice.dao;
+
+public class NoticeMapperImpl {
+
+}

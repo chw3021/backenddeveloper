@@ -1,0 +1,5 @@
+package com.mvc.reply.dao;
+
+public interface ReplyMapper {
+
+}

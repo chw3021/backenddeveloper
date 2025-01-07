@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="javax.servlet.http.HttpServletResponse"/>
+    <fullyQualifiedTypeName name="javax.servlet.http.HttpServletRequest"/>
+    <fullyQualifiedTypeName name="java.util.Date"/>
+    <fullyQualifiedTypeName name="java.text.SimpleDateFormat"/>
+    <fullyQualifiedTypeName name="javax.servlet.annotation.WebServlet"/>
+    <fullyQualifiedTypeName name="javax.servlet.annotation.WebInitParam"/>
+    <fullyQualifiedTypeName name="java.io.PrintWriter"/>
+    <fullyQualifiedTypeName name="java.sql.Connection"/>
+    <fullyQualifiedTypeName name="java.sql.DriverManager"/>
+    <fullyQualifiedTypeName name="com.books.BooksDAO"/>
+    <fullyQualifiedTypeName name="java.util.ArrayList"/>
+    <fullyQualifiedTypeName name="com.books.BooksVO"/>
+    <fullyQualifiedTypeName name="org.bukkit.Particle"/>
+    <fullyQualifiedTypeName name="org.bukkit.Particle.DustTransition"/>
+    <fullyQualifiedTypeName name="javax.servlet.RequestDispatcher"/>
+    <fullyQualifiedTypeName name="org.bukkit.potion.PotionEffect"/>
+    <fullyQualifiedTypeName name="org.bukkit.potion.PotionEffectType"/>
+    <fullyQualifiedTypeName name="org.bukkit.Bukkit"/>
+    <fullyQualifiedTypeName name="com.mvc.common.controller.Controller"/>
+    <fullyQualifiedTypeName name="javax.servlet.http.HttpServlet"/>
+    <fullyQualifiedTypeName name="com.mvc.board.dao.BoardMapperImpl"/>
+    <fullyQualifiedTypeName name="com.mvc.board.dao.BoardMapper"/>
+    <fullyQualifiedTypeName name="com.mvc.board.controller.DetailBoardController"/>
+    <fullyQualifiedTypeName name="com.mvc.member.dao.MemberMapper"/>
+    <fullyQualifiedTypeName name="com.mvc.member.dao.MemberMapperImpl"/>
+    <fullyQualifiedTypeName name="com.mvc.member.service.MemberService"/>
+    <fullyQualifiedTypeName name="com.mvc.member.service.MemberServiceImpl"/>
+    <fullyQualifiedTypeName name="com.mvc.member.controller.GetMemberListController"/>
+    <fullyQualifiedTypeName name="com.google.common.collect.HashMultimap"/>
+    <fullyQualifiedTypeName name="org.bukkit.block.BlockFace"/>
+    <fullyQualifiedTypeName name="java.util.concurrent.atomic.AtomicBoolean"/>
+    <fullyQualifiedTypeName name="org.bukkit.entity.EnderPearl"/>
+    <fullyQualifiedTypeName name="org.bukkit.attribute.Attribute"/>
+    <fullyQualifiedTypeName name="io.github.chw3021.monsters.worldgen.EnderRaidChunkGenerator"/>
+    <fullyQualifiedTypeName name="io.github.chw3021.monsters.raids.EndercoreRaids"/>
+</qualifiedTypeNameHistroy>

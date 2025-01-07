@@ -1,0 +1,5 @@
+package com.mvc.reply.vo;
+
+public class ReplyVO {
+
+}

@@ -1,0 +1,36 @@
+package com.mvc.member.controller;
+
+import java.util.List;
+
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+
+import com.mvc.common.controller.Controller;
+import com.mvc.member.service.MemberService;
+import com.mvc.member.service.MemberServiceImpl;
+import com.mvc.member.vo.MemberVO;
+
+public class GetMemberListController implements Controller{
+	
+	@Override
+	public String execute(HttpServletRequest request, HttpServletResponse response) {	
+		/* 게시판 레코드 검색 시 검색할 대상과 단어를 인자값으로 전달 */
+		String search = request.getParameter("search");
+		// 최초 요청시 null 값 처리
+		if(search == null){
+			search = "all"; // search 값이 all이면 전체 조회
+		}
+		
+		MemberVO vo = new MemberVO();
+		vo.setSearch(search);
+		vo.setKeyword(request.getParameter("keyword"));
+		
+		MemberService service = MemberServiceImpl.getInstance();
+		List<MemberVO> list = service.memberList(vo);
+
+		request.setAttribute("list", list);
+		//jsp 페이지에서 사용방법은 ${requestScope.list}
+		return "/member/getMemberList"; //뷰정보
+	}
+
+}

@@ -1,0 +1,5 @@
+package com.mvc.member.controller;
+
+public class getMemberListController {
+
+}
