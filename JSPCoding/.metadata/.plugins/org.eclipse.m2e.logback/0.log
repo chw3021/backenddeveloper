@@ -5305,3 +5305,9 @@ org.apache.maven.settings.building.SettingsBuildingException: 1 problem was enco
 2025-01-07 15:15:22,740 [Worker-57: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\user1\git\rpgskills.github.io\src\main\resources
 2025-01-07 15:15:22,743 [Worker-57: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
 2025-01-07 15:15:22,743 [Worker-57: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\user1\git\rpgskills.github.io\src\test\resources
+2025-01-07 15:16:27,013 [Worker-57: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - File encoding has not been set, using platform encoding UTF-8. Build is platform dependent!
+2025-01-07 15:16:27,013 [Worker-57: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - See https://maven.apache.org/general.html#encoding-warning
+2025-01-07 15:16:27,014 [Worker-57: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-01-07 15:16:27,014 [Worker-57: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\user1\git\rpgskills.github.io\src\main\resources
+2025-01-07 15:16:27,015 [Worker-57: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-01-07 15:16:27,015 [Worker-57: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\user1\git\rpgskills.github.io\src\test\resources
